@@ -29,7 +29,7 @@ inputSearch.addEventListener("input", async (e) => {
         product.title.toLowerCase().includes(searchValue.toLowerCase())
       );
 
-      cardList.innerHTML = ""; // Cardlarni tozalash
+      cardList.innerHTML = "";
       
       filteredProducts.concat(
         data.products.filter(product => !filteredProducts.includes(product))
